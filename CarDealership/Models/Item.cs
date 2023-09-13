@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ToDoList.Models
+namespace CarDealership.Models
 {
   public class Item
   {
