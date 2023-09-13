@@ -1,0 +1,5 @@
+/Users/jessicahattig/Desktop/Epicodus-Part-time/Week-17-18/CarDealership.Solution/CarDealership.Tests/obj/Debug/net6.0/CarDealership.Tests.csproj.AssemblyReference.cache
+/Users/jessicahattig/Desktop/Epicodus-Part-time/Week-17-18/CarDealership.Solution/CarDealership.Tests/obj/Debug/net6.0/CarDealership.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicahattig/Desktop/Epicodus-Part-time/Week-17-18/CarDealership.Solution/CarDealership.Tests/obj/Debug/net6.0/CarDealership.Tests.AssemblyInfoInputs.cache
+/Users/jessicahattig/Desktop/Epicodus-Part-time/Week-17-18/CarDealership.Solution/CarDealership.Tests/obj/Debug/net6.0/CarDealership.Tests.AssemblyInfo.cs
+/Users/jessicahattig/Desktop/Epicodus-Part-time/Week-17-18/CarDealership.Solution/CarDealership.Tests/obj/Debug/net6.0/CarDealership.Tests.csproj.CoreCompileInputs.cache
