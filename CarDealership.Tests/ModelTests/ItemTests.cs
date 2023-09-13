@@ -14,5 +14,7 @@ namespace CarDealership.TestTools
       Item newItem = new Item();
       Assert.AreEqual(typeof(Item), newItem.GetType());
     }
+    [TestMethod]
+    public void 
   }
 }
