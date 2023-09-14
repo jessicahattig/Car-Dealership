@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace CarDealership.Models
 {
-  public class Item
+  public class Car
   {
 
   }

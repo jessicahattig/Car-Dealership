@@ -6,15 +6,15 @@ using CarDealership.Models;
 namespace CarDealership.TestTools
 {
   [TestClass]
-  public class Items
+  public class Car
   {
     [TestMethod]
-    public void ItemsConstructor_CreateInstanceOfItems_Item()
+    public void CarsConstructor_CreateInstanceOfCars_Car()
     {
-      Item newItem = new Item();
-      Assert.AreEqual(typeof(Item), newItem.GetType());
+      Car newCar = new Car();
+      Assert.AreEqual(typeof(Car), newCar.GetType());
     }
-    [TestMethod]
-    public void 
+  //   [TestMethod]
+  //   public void 
   }
 }
