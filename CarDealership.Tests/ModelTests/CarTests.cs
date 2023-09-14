@@ -6,15 +6,31 @@ using CarDealership.Models;
 namespace CarDealership.TestTools
 {
   [TestClass]
-  public class Car
+  public class CarTests : IDisposable
   {
+    public void Dispose()
+    {
+      Car.ClearAll();
+    }
+
     [TestMethod]
     public void CarsConstructor_CreateInstanceOfCars_Car()
     {
-      Car newCar = new Car();
+      Car newCar = new Car("test");
       Assert.AreEqual(typeof(Car), newCar.GetType());
     }
-  //   [TestMethod]
-  //   public void 
+    [TestMethod]
+    public void GetDescription_ReturnsDescription_String()
+    {
+      //Arrange
+      string description = "Hyundai Kona EV";
+
+      //Act
+      Car newCar = new Car(description);
+      string result = newCar.Description;
+
+      //Assert
+      Assert.AreEqual(description, result);
+    }
   }
 }
