@@ -32,5 +32,23 @@ namespace CarDealership.TestTools
       //Assert
       Assert.AreEqual(description, result);
     }
+
+    [TestMethod]
+
+    public void SetDescription_SetDescription_String()
+    {
+
+      //Arrange 
+      string description = "Hyundai Kona EV";
+      Car newCar = new Car(description);
+
+      //Act 
+      string updatedDescription = "BMW X1 x28i";
+      newCar.Description = updatedDescription;
+      string result = newCar.Description;
+
+      //Assert
+      Assert.AreEqual(updatedDescription, result);
+    }
   }
 }
