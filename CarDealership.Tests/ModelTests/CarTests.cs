@@ -50,5 +50,18 @@ namespace CarDealership.TestTools
       //Assert
       Assert.AreEqual(updatedDescription, result);
     }
+
+    [TestMethod]
+    public void GetAll_ReturnsEmptyList_CarList()
+    {
+      //Arrange
+      List<Car> newList = new List<Car> { };
+
+      //Act 
+      List<Car> result = Car.GetAll();
+
+      //Assert
+      CollectionAssert.AreEqual(newList, result);
+    }
   }
 }
