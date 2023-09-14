@@ -63,5 +63,22 @@ namespace CarDealership.TestTools
       //Assert
       CollectionAssert.AreEqual(newList, result);
     }
+    [TestMethod]
+    public void GetAll_ReturnsCars_CarList()
+    {
+
+      //Arrange
+      string description01 = "Hyundai Kona EV";
+      string description02 = "BMW X1 x28i";
+      Car newCar1 = new Car(description01);
+      Car newCar2 = new Car(description02);
+      List<Car> newList = new List<Car> { newCar1, newCar2 };
+
+      //Act 
+      List<Car> result = Car.GetAll();
+
+      //Assert
+      CollectionAssert.AreEqual(newList, result);
+    }
   }
 }
